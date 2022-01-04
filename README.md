@@ -46,7 +46,7 @@ update @ 2022/01/04
 	
 			modify the file name in KEIL project , also need to modify the file name in these 3 generate***.cmd		
 			
-		- check sum calculate will start from 0 to 0x7AFFC , and store in (0x7B000 - 4) bytes (0x7AFFC)
+		- check sum calculate will start from 0 to 0x7AFFC , and store in (0x7B000 - 4) address (0x7AFFC)
 		
 		- after project compile finish , binary size will be 492K (total application code size : 0x7B000)
 		
